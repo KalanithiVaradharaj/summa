@@ -1,0 +1,71 @@
+Lets say we have 2 numbers X and Y.
+
+Lets say these 2 numbers are going to work with numbers within the range P and Q, where:
+
+Starting range = P
+Ending range = Q
+With P and Q (range inclusive) evaluate the following:
+
+Total number of multiples of X
+Total number of multiples of Y
+Sum of multiples of X
+sum of multiples of Y
+The difference between the above obtained sum.
+Input Format
+
+In the first line, get the number: X
+In the second line, get the number: Y
+In the third line, obtain the starting range number: P
+In the fourth line, obtain the ending range number: Q
+Constraints
+
+All numbers are positive in nature.
+
+P is always lesser than Q.
+
+Output Format
+
+Refer to the sample input and output for the format.
+
+Sample Input 0
+
+2
+7
+1
+10
+Sample Output 0
+
+x-Multiples-Count = 5
+y-Multiples-Count = 1
+x-Multiples-Sum = 30
+y-Multiples-Sum = 7
+Difference-in-Sum = 23
+Explanation 0
+
+Within 1 and 10:
+
+The multiples of 2 are 2, 4, 6, 8 and 10. So, there are 5 multiples.
+So, when you add those multiples 2 + 4 + 6 + 8 + 10, you get 30.
+The multiples of 7 is itself. So, the count of multiples is 1 and the sum is 7.
+The difference between 7 and 30 is 23.
+Sample Input 1
+
+3
+5
+5
+10
+Sample Output 1
+
+x-Multiples-Count = 2
+y-Multiples-Count = 2
+x-Multiples-Sum = 15
+y-Multiples-Sum = 15
+Difference-in-Sum = 0
+Explanation 1
+
+Within 5 and 10:
+
+The multiples of 3 are 6 and 9. So, there are 2 multiples.
+So, when you add those multiples 6 + 9, you get 15.
+The multiples of 5 are 5 and 10. So, the count of multiples is 2 and the sum is 5 + 10 = 15.
+The difference between 15 and 15 is 0.
